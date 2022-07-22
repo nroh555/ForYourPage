@@ -13,9 +13,9 @@
   },
   "permissions": ["activeTab", "notifications", "alarms"],
   "host_permissions": ["<all_urls>"],
-  "content_scripts":[
+  "content_scripts": [
     {
-      "matches": [ "*://*/*"],
+      "matches": ["*://*/*"],
       "all_frames": true,
       "js:": ["textreplace.js"],
       "run_at": "document_end"
