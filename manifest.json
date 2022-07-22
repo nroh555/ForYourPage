@@ -18,7 +18,8 @@
       "matches": [ "*://*/*"],
       "all_frames": true,
       "js:": ["textreplace.js"],
-      "run_at": "document_end"
+      "run_at": "document_end",
+      "css" : ["BackgroundChanger.css"]
     }
   ]
 }
