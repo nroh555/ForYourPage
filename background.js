@@ -86,3 +86,8 @@ function textReplacer() {
 // document.getElementById("rick").onclick = function () {
 //     location.href = "https://www.youtube.com/";
 // };
+
+
+function playMusic() {
+    
+}
