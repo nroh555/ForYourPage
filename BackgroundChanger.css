@@ -11,6 +11,10 @@
 
 
 html body {
+<<<<<<< HEAD
+  background-color: aqua;
+}
+=======
     background-color: red !important;
     color-scheme: blue !important;
 
@@ -50,3 +54,4 @@ html table {
 }
 
 
+>>>>>>> 4871af97c94932c760ddc408dabdb9516ee96910
