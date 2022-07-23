@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@
   letter-spacing: 5px;
   margin-top: 30px;
   margin-bottom: 15px;
+  text-shadow: 2px 2px black;
 }
 
 .icon {
@@ -34,6 +36,7 @@
   top: 15px;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
 }
 .change-text {
   color: white;
@@ -45,6 +48,7 @@
   top: 15px;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
 }
 
 .change-image {
@@ -56,4 +60,5 @@
   top: 15px;
   text-align: center;
   margin-bottom: 30px;
+  font-family: "Inter", sans-serif;
 }
