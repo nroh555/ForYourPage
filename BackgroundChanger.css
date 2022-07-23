@@ -4,53 +4,38 @@
 }
 */
 
-* {
-    background-color: silver !important;
-    color-scheme: blue !important;
-    color: black;
-    
-    /*font-family: 'Brush Script MT', cursive;*/
-    font-size: large;
-}
-/*
-
 html body {
-    background-color: red !important;
-    color-scheme: blue !important;
-
+  background-color: red !important;
+  color-scheme: blue !important;
 }
 html div {
-    background-color: red !important;
-    color-scheme: blue !important;
+  background-color: red !important;
+  color-scheme: blue !important;
 }
 html head {
-    background-color: red !important;
-    color-scheme: blue !important;
+  background-color: red !important;
+  color-scheme: blue !important;
 }
 html div {
-    background-color: silver !important;
-    color-scheme: blue !important;
-    font:'Impact';
-    color: black;
+  background-color: silver !important;
+  color-scheme: blue !important;
+  font: "Impact";
 }
 
 html a {
-    background-color: silver !important;
-    color-scheme: blue !important;
-
+  background-color: silver !important;
+  color-scheme: blue !important;
 }
 html ul {
-    background-color: silver !important;
-    color-scheme: blue !important;
+  background-color: silver !important;
+  color-scheme: blue !important;
 }
 html table {
-    background-color: silver !important;
-    color-scheme: blue !important;
+  background-color: silver !important;
+  color-scheme: blue !important;
 }
 * {
-    background-color: silver !important;
-    color-scheme: blue !important;
-    color: black;
+  background-color: silver !important;
+  color-scheme: blue !important;
+  color: black;
 }
-
-*/
