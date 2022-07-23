@@ -3,6 +3,12 @@
     color-scheme: blue !important;
 }
 */
+* {
+    background-color: silver !important;
+    color-scheme: blue !important;
+    color: black;
+}
+
 
 html body {
     background-color: red !important;
@@ -21,6 +27,7 @@ html div {
     background-color: silver !important;
     color-scheme: blue !important;
     font:'Impact';
+    color: black;
 }
 
 html a {
