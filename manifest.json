@@ -17,7 +17,7 @@
     {
       "matches": ["<all_urls>"],
       "all_frames": true,
-      "js:": ["textreplace.js", "content.js"],
+      "js:": ["textreplace.js"],
       "run_at": "document_end",
       "css": ["BackgroundChanger.css"]
     }
