@@ -7,19 +7,62 @@
     <title>For Your Page</title>
 
     <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
       .body {
         height: 400px;
         width: 300px;
+        background-color: #8aaae5;
+        text-align: center;
+      }
+
+      .title {
+        color: white;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 5px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+
+      .icon {
+        height: 115px;
+        width: 115px;
+        margin-bottom: 25px;
+      }
+
+      .toggle-extension {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 5px;
+      }
+      .change-text {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 5px;
+      }
+
+      .change-image {
+        color: white;
+        text-transform: uppercase;
+        font-size: 16px;
+        letter-spacing: 5px;
       }
     </style>
   </head>
 
   <body class="body">
-    <h1>For Your Page</h1>
-    <!-- Test for text-replacement -->
-    <h2>Football</h2> 
+    <h1 class="title">For Your Page</h1>
+    <h1>Football</h1>
+    <img src="icon.png" alt="Logo Icon" class="icon" />
+    <p class="toggle-extension">Toggle extension</p>
+    <p class="change-text">Change Text</p>
+    <p class="change-image">Change Image</p>
     <script src="popup.js"></script>
-    <script src="content.js"></script>
-    <script src="textreplace.js"></script>
+    <script src="background.js"></script>
   </body>
 </html>

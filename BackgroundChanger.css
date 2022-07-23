@@ -1,4 +1,9 @@
-html body {
-    background-color: aqua;
+/**{
+    background-color: yellow !important;
+    color-scheme: blue !important;
 }
-
+*/ * {
+    background-color: grey !important;
+    color-scheme: grey !important;
+    color: black !important;
+}
