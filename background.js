@@ -20,10 +20,11 @@ function textReplacer() {
     
             if (node.nodeType === 3) {
                 var text = node.nodeValue;
-                var replacedText = text.replace('.', ' on gawd. ');
+                var replacedText = text.replace('.', ' on gawd 🙏. ');
     
                 if (replacedText !== text) {
                     element.replaceChild(document.createTextNode(replacedText), node);
+                    // element.style.fontFamily = "Impact";
                 }
             }
         }
@@ -37,7 +38,7 @@ function textReplacer() {
     
             if (node.nodeType === 3) {
                 var text = node.nodeValue;
-                var replacedText = text.replace('the', 'da');
+                var replacedText = text.replace(' the ', ' da ');
     
                 if (replacedText !== text) {
                     element.replaceChild(document.createTextNode(replacedText), node);
@@ -46,4 +47,3 @@ function textReplacer() {
         }
     }
 }
-

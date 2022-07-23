@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>For Your Page</title>
-    <link rel = "stylesheet" href = "popupStyles.css">
+    <script src="popup.js"></script>
   </head>
 
   <body class="body">
     <h1 class="title">For Your Page</h1>
     <h1>Football</h1>
     <img src="icon.png" alt="Logo Icon" class="icon" />
-    <p class="toggle-extension">Toggle extension</p>
+    <button class="toggle-extension" onclick="myFunction()">Toggle extension</button>
+    <script>
+    function myFunction() {
+      var element = document.body;
+      element.classList.toggle("mode");
+}
+      </script>
     <p class="change-text">Change Text</p>
     <p class="change-image">Change Image</p>
-    <script src="popup.js"></script>
     <script src="background.js"></script>
   </body>
 </html>

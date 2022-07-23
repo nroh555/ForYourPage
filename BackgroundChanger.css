@@ -3,12 +3,14 @@
     color-scheme: blue !important;
 }
 */
-/* * {
-  background-color: white !important;
-  color-scheme: white !important;
-  color: black !important;
-} */
+* {
+  font-family: "Comic Sans MS", "Impact" !important;
+}
+
+div, body {
+  background-image: linear-gradient(to left, rgba(238, 130, 238, 0.1), rgba(75, 0, 130, 0.1), rgba(0, 0, 255, 0.1), rgba(0, 128, 0, 0.1), rgba(255, 255, 0, 0.1), rgba(255, 165, 0, 0.1), rgba(255, 0, 0, 0.1));
+}
 
 img {
-  content: url(https://i.redd.it/01framns0be61.png);
+  content: url(https://c.tenor.com/6UrHRuH47WQAAAAC/drip-goku.gif);
 }
