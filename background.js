@@ -5,9 +5,15 @@ chrome.scripting.executeScript({
     target: { tabId }
 
 })
+chrome.scripting.executeScript({
+    func: playSounds,
+    target: { tabId }
+
+})
     }
 })
 
+// Replace text 
 function textReplacer() {
     var elements = document.getElementsByTagName('*');
     console.log(document);
@@ -86,8 +92,3 @@ function textReplacer() {
 // document.getElementById("rick").onclick = function () {
 //     location.href = "https://www.youtube.com/";
 // };
-
-
-function playMusic() {
-    
-}
