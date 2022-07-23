@@ -4,17 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="popupStyles.css" , rel="stylesheet" />
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' https://localhost 'unsafe-inline'; script-src 'self' http://* 'unsafe-inline' 'unsafe-eval'" />
     <title>For Your Page</title>
+        <script src="popup.js"></script>
+    <link rel = "stylesheet" href = "popupStyles.css">
   </head>
 
   <body class="body">
     <h1 class="title">For Your Page</h1>
     <img src="icon.png" alt="Logo Icon" class="icon" />
-    <p class="toggle-extension">Toggle Extension</p>
+    <button id="rick" class="toggle-extension">Nah</button>    
     <p class="change-text">Change Text</p>
     <p class="change-image">Change Image</p>
     <script src="background.js"></script>
-    <script src="popup.js"></script>
   </body>
 </html>

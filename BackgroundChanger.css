@@ -9,8 +9,13 @@
 
 div, body {
   background-image: linear-gradient(to left, rgba(238, 130, 238, 0.1), rgba(75, 0, 130, 0.1), rgba(0, 0, 255, 0.1), rgba(0, 128, 0, 0.1), rgba(255, 255, 0, 0.1), rgba(255, 165, 0, 0.1), rgba(255, 0, 0, 0.1));
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Mike_Tyson_2019_by_Glenn_Francis.jpg/1200px-Mike_Tyson_2019_by_Glenn_Francis.jpg);
+  background-size: contain; */
+  
+
 }
 
 img {
   content: url(https://c.tenor.com/6UrHRuH47WQAAAAC/drip-goku.gif);
 }
+ 
