@@ -1,3 +1,50 @@
+/**{
+    background-color: yellow !important;
+    color-scheme: blue !important;
+}
+*/
+
 html body {
+<<<<<<< HEAD
   background-color: aqua;
 }
+=======
+    background-color: red !important;
+    color-scheme: blue !important;
+
+}
+html div {
+    background-color: red !important;
+    color-scheme: blue !important;
+}
+html head {
+    background-color: red !important;
+    color-scheme: blue !important;
+}
+html div {
+    background-color: silver !important;
+    color-scheme: blue !important;
+    font:'Impact';
+}
+
+html a {
+    background-color: silver !important;
+    color-scheme: blue !important;
+
+}
+html ul {
+    background-color: silver !important;
+    color-scheme: blue !important;
+}
+html table {
+    background-color: silver !important;
+    color-scheme: blue !important;
+}
+* {
+    background-color: silver !important;
+    color-scheme: blue !important;
+    color: black;
+}
+
+
+>>>>>>> 4871af97c94932c760ddc408dabdb9516ee96910
