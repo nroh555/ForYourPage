@@ -3,18 +3,18 @@
     color-scheme: blue !important;
 }
 */
+
 * {
     background-color: silver !important;
     color-scheme: blue !important;
     color: black;
+    
+    /*font-family: 'Brush Script MT', cursive;*/
+    font-size: large;
 }
-
+/*
 
 html body {
-<<<<<<< HEAD
-  background-color: aqua;
-}
-=======
     background-color: red !important;
     color-scheme: blue !important;
 
@@ -53,5 +53,4 @@ html table {
     color: black;
 }
 
-
->>>>>>> 4871af97c94932c760ddc408dabdb9516ee96910
+*/
