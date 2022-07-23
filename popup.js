@@ -8,7 +8,17 @@ document.addEventListener('DOMContentLoaded', () => {
  }
 
 
- document.addEventListener('DOMContentLoaded', () => {
+ 
+document.addEventListener('DOMContentLoaded', () => {
+    var y = document.getElementById("clickIt");
+    y.addEventListener("click", openIndex1);
+ });
+ 
+ function openIndex1() {
+    alert("Hello..! It's my first chrome extension.");
+ }
+
+document.addEventListener('DOMContentLoaded', () => {
     var btn = document.getElementById("btnYeah");
     btn.addEventListener("click", playYeah);
  });
@@ -17,3 +27,4 @@ function playYeah() {
     console.log("test");
     audio.play();
 }
+
