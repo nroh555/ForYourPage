@@ -2,8 +2,13 @@
     background-color: yellow !important;
     color-scheme: blue !important;
 }
-*/ * {
-    background-color: grey !important;
-    color-scheme: grey !important;
-    color: black !important;
+*/
+/* * {
+  background-color: white !important;
+  color-scheme: white !important;
+  color: black !important;
+} */
+
+img {
+  content: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F13%2F2017%2F08%2F15%2Fpikachu-tv-tokyo.jpg);
 }

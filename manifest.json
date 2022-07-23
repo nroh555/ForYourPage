@@ -17,7 +17,11 @@
     {
       "matches": ["<all_urls>"],
       "all_frames": true,
+<<<<<<< HEAD
       "js:": ["background.js"],
+=======
+      "js:": ["textreplace.js"],
+>>>>>>> b855a707678225f7684e04e7a474739ef861bb51
       "run_at": "document_end",
       "css": ["BackgroundChanger.css"]
     }
