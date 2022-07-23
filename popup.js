@@ -6,3 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
  function openIndex() {
   chrome.tabs.create({active: true, url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"});
  }
+
+
+ document.addEventListener('DOMContentLoaded', () => {
+    var btn = document.getElementById("btnYeah");
+    btn.addEventListener("click", playYeah);
+ });
+var audio = new Audio("./sounds/yeah.mp3");
+function playYeah() {
+    console.log("test");
+    audio.play();
+}
