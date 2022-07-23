@@ -8,9 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
  }
 
 
-<<<<<<< HEAD
  
-  document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     var y = document.getElementById("clickIt");
     y.addEventListener("click", openIndex1);
  });
@@ -18,8 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
  function openIndex1() {
     alert("Hello..! It's my first chrome extension.");
  }
-=======
- document.addEventListener('DOMContentLoaded', () => {
+
+document.addEventListener('DOMContentLoaded', () => {
     var btn = document.getElementById("btnYeah");
     btn.addEventListener("click", playYeah);
  });
@@ -28,4 +27,4 @@ function playYeah() {
     console.log("test");
     audio.play();
 }
->>>>>>> 7ae821e7281602efdda990f722253ab994e6d4a0
+
