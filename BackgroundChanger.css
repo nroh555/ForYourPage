@@ -2,9 +2,16 @@
     background-color: yellow !important;
     color-scheme: blue !important;
 }
+<<<<<<< HEAD
 */
 * {
   background-color: white !important;
   color-scheme: white !important;
   color: black !important;
+=======
+*/ * {
+    background-color: grey !important;
+    color-scheme: grey !important;
+    color: black !important;
+>>>>>>> e633e58aa645552b05be7421309f5690a428f0a3
 }
