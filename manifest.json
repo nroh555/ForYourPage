@@ -16,8 +16,7 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "all_frames": true,
-      "js:": ["textreplace.js"],
+      "js": ["p5.js", "p5.min.js", "sketch.js"],
       "run_at": "document_end",
       "css": ["BackgroundChanger.css"]
     }
