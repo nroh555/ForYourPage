@@ -21,7 +21,6 @@ body {
 #icon {
   height: 115px;
   width: 115px;
-  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -61,12 +60,13 @@ body {
 } */
 
 .bored {
-  margin: 2px;
+  padding: 1rem;
   background-color: white;
 }
 
 .bored-message {
-  margin: 1px;
+  padding: 10px;
+  font-family: "Comic Sans MS", "Impact";
 }
 
 .btn {
