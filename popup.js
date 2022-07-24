@@ -30,7 +30,7 @@ function playYeah() {
 function onOffAlert() {
    const img = document.getElementById("icon");
    img.src = "images/stressed-emoji.png";
-   alert("~~~~~~~~~ Fortunately, you cannot turn this off ~~~~~~~~~          ~~~~~~~~~ It will stay on, and you will enjoy it. :) ~~~~~~~~~");
+   alert("Fortunately, you cannot turn this off. It will stay on, and you will enjoy it. :)");
 }
 
 
