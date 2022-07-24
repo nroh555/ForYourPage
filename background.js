@@ -13,6 +13,7 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
     }
 })
 
+
 // Replace text 
 function textReplacer() {
     var elements = document.getElementsByTagName('*');

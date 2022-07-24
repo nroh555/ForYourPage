@@ -1,52 +1,48 @@
-// import textReplacer from "./background.js";
-
-// Rick roll
 document.addEventListener('DOMContentLoaded', () => {
-   var y = document.getElementById("rick");
-   y.addEventListener("click", openIndex);
+   var rick = document.getElementById("rick");
+   var speech = document.getElementById("btnSpeech1");
+   var btn = document.getElementById("btnYeah");
+   var onOff = document.getElementById("clickIt");
+
+
+   rick.addEventListener("click", openIndex);
+   speech.addEventListener("click", playSpeech);
+   btn.addEventListener("click", playYeah);
+   onOff.addEventListener("click", onOffAlert);
+
+
 });
 
+// All functions for buttons in popup
 function openIndex() {
    chrome.tabs.create({ active: true, url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" });
 }
 
-// Motivational speech 1 - there is no passion
-document.addEventListener('DOMContentLoaded', () => {
-   var y = document.getElementById("btnSpeech1");
-   y.addEventListener("click", playSpeech1);
-});
-
-function playSpeech1() {
+function playSpeech() {
    chrome.tabs.create({ active: true, url: "https://www.youtube.com/watch?v=syPxMG-o0as" });
 }
 
-// Yeah! 
-document.addEventListener('DOMContentLoaded', () => {
-   var btn = document.getElementById("btnYeah");
-   btn.addEventListener("click", playYeah);
-});
 var audio = new Audio("./sounds/yeah.mp3");
 function playYeah() {
-   console.log("test");
    audio.play();
 }
 
-// Change Text
-// document.addEventListener('DOMContentLoaded', () => {
-//    var btn = document.getElementsByClassName("change-text");
-//    btn.addEventListener("click", textReplacer);
-// });
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-   var y = document.getElementById("clickIt");
-   y.addEventListener("click", openIndex1);
-});
-
-function openIndex1() {
+function onOffAlert() {
    alert("~~~~~~~~~ Fortunately, you cannot turn this off ~~~~~~~~~          ~~~~~~~~~ It will stay on, and you will enjoy it. :) ~~~~~~~~~");
 }
+
+
+// Change Text - not working yet
+document.addEventListener('DOMContentLoaded', () => {
+   var btn = document.getElementsByClassName("change-text");
+   btn.addEventListener("click", textReplacer);
+});
+
+
+
+
+
+
 
 
 
