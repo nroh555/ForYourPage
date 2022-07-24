@@ -1,13 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-}
-.body {
+
+body {
   height: 400px;
   width: 300px;
   background-color: #8aaae5;
   text-align: center;
+  justify-content: center;
 }
 
 .title {
@@ -26,7 +24,7 @@
   margin-bottom: 25px;
 }
 
-.toggle-extension {
+/* .change-text {
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -37,21 +35,9 @@
   text-align: center;
   margin-bottom: 30px;
   font-family: "Inter", sans-serif;
-}
-.change-text {
-  color: white;
-  text-transform: uppercase;
-  font-size: 16px;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  position: relative;
-  top: 15px;
-  text-align: center;
-  margin-bottom: 30px;
-  font-family: "Inter", sans-serif;
-}
+} */
 
-.change-image {
+/* .change-image {
   color: white;
   text-transform: uppercase;
   font-size: 16px;
@@ -61,4 +47,15 @@
   text-align: center;
   margin-bottom: 30px;
   font-family: "Inter", sans-serif;
+} */
+
+.bored {
+  margin: 2px;
+}
+.bored-message {
+  margin: 1px;
+}
+.btn {
+  text-align: center;
+  margin: 2%;
 }
