@@ -3,22 +3,39 @@
   "name": "For Your Page",
   "description": "F*** Your Productivity",
   "version": "1.0.0",
-  "icons": { "128": "icon.png" },
+  "icons": {
+    "128": "emoji-icon.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_icon": "icon.png", 
+    "default_icon": "emoji-icon.png",
     "default_popup": "popup.html"
   },
-  "permissions": ["activeTab", "notifications", "alarms", "scripting"],
-  "host_permissions": ["<all_urls>"],
+  "permissions": [
+    "activeTab",
+    "notifications",
+    "alarms",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["p5.js", "p5.min.js", "sketch.js"],
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "p5.js",
+        "p5.min.js",
+        "sketch.js"
+      ],
       "run_at": "document_end",
-      "css": ["BackgroundChanger.css"]
+      "css": [
+        "BackgroundChanger.css"
+      ]
     }
   ]
 }
