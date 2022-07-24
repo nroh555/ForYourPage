@@ -28,6 +28,8 @@ function playYeah() {
 }
 
 function onOffAlert() {
+   const img = document.getElementById("icon");
+   img.src = "images/stressed-emoji.png";
    alert("~~~~~~~~~ Fortunately, you cannot turn this off ~~~~~~~~~          ~~~~~~~~~ It will stay on, and you will enjoy it. :) ~~~~~~~~~");
 }
 
@@ -37,18 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
    var btn = document.getElementsByClassName("change-text");
    btn.addEventListener("click", textReplacer);
 });
-
-<<<<<<< HEAD
-
-
-
-
-
-=======
-function openIndex1() {
-   alert("Fortunately, you cannot turn this off. It will stay on, and you will enjoy it. :)");
-}
->>>>>>> eb4474e5d6ea42c75a80ce4c7d068620b33eccaf
-
 
 
