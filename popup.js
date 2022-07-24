@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
  });
  
  function openIndex1() {
-    alert("Hello..! It's my first chrome extension.");
+    alert("~~~~~~~~~ Fortunately, you cannot turn this off ~~~~~~~~~          ~~~~~~~~~ It will stay on, and you will enjoy it. :) ~~~~~~~~~");
  }
 
 
