@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   chrome.tabs.create({active: true, url: "https://www.youtube.com/watch?v=syPxMG-o0as"});
  }
 
-
  // Yeah! 
  document.addEventListener('DOMContentLoaded', () => {
     var btn = document.getElementById("btnYeah");
@@ -31,7 +30,6 @@ function playYeah() {
 }
 
 
- 
 document.addEventListener('DOMContentLoaded', () => {
     var y = document.getElementById("clickIt");
     y.addEventListener("click", openIndex1);

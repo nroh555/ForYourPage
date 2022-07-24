@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
-  height: 400px;
-  width: 300px;
+  height: 550px;
+  width: 350px;
   background-color: #8aaae5;
   text-align: center;
   justify-content: center;
@@ -18,10 +18,21 @@ body {
   text-shadow: 2px 2px black;
 }
 
-.icon {
+#icon {
   height: 115px;
   width: 115px;
   margin-bottom: 25px;
+  text-align: center;
+}
+
+.main-functions {
+  width: 50%;
+  margin: 1rem auto;
+
+}
+
+.main-functions button {
+  margin: 5px;
 }
 
 /* .change-text {
@@ -51,10 +62,13 @@ body {
 
 .bored {
   margin: 2px;
+  background-color: white;
 }
+
 .bored-message {
   margin: 1px;
 }
+
 .btn {
   text-align: center;
   margin: 2%;
