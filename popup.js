@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function openIndex1() {
-   alert("~~~~~~~~~ Fortunately, you cannot turn this off ~~~~~~~~~          ~~~~~~~~~ It will stay on, and you will enjoy it. :) ~~~~~~~~~");
+   alert("Fortunately, you cannot turn this off. It will stay on, and you will enjoy it. :)");
 }
 
 
